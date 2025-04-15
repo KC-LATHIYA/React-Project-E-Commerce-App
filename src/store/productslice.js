@@ -103,14 +103,7 @@ const productslice = createSlice({
             })
             .addCase(CreatePtoduct.fulfilled, (state, action) => {
                 state.loading = false;
-
-                console.log("%c[CreatePtoduct.fulfilled] Action payload:", "color: green;", action.payload);
-                console.log("%c[CreatePtoduct.fulfilled] Product list BEFORE update:", "color: orange;", [...state.product]);
-
                 state.product.push(action.payload); // or use state.product = [...state.product, action.payload] for immutability
-
-                console.log("%c[CreatePtoduct.fulfilled] Product list AFTER update:", "color: blue;", [...state.product]);
-
                 state.error = null;
             })
             .addCase(CreatePtoduct.rejected, (state, action) => {

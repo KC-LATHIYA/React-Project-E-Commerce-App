@@ -44,10 +44,10 @@ const AdminPage = () => {
           category: "men's clothing",
           image: "",
         });
-        console.log("Product created:", createdProduct);
+       
       })
       .catch((err) => {
-        console.error("Failed to create product:", err);
+       
       });
   };
 

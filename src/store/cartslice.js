@@ -14,7 +14,6 @@ const cartslice = createSlice({
             } else {
                 const item = action.payload
                 state.items.push({ ...item, qty: 1 })
-                console.log("Items after push:", [...state.items]);
             }
         },
 
