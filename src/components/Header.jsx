@@ -50,7 +50,7 @@ function Header() {
                         </nav>
 
                         {/* Auth Buttons */}
-                        <div className="flex space-x-3">
+                        <div className="hidden md:flex space-x-3">
                             <NavLink to="/login">
                                 <button className="px-4 py-1 border border-indigo-600 text-indigo-600 rounded-full hover:bg-indigo-50 transition">
                                     Login
