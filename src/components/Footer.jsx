@@ -19,7 +19,7 @@ function Footer() {
                 <MdLocationPin className="text-red-500 text-xl" />
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-sm text-gray-300">Surat, Gujarat</p>
+                  <p className="text-sm text-gray-300">India, Asia</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -33,7 +33,7 @@ function Footer() {
                 <SiGmail className="text-red-400 text-xl" />
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-sm text-gray-300">lathiyakrish@gmail.com</p>
+                  <p className="text-sm text-gray-300">krish@gmail.com</p>
                 </div>
               </div>
             </div>

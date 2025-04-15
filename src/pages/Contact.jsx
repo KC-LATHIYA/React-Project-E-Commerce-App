@@ -22,7 +22,7 @@ const Contact = () => {
               <MdLocationPin className="text-2xl text-red-500" />
               <div>
                 <h4 className="text-lg font-semibold">Our Location</h4>
-                <p className="text-gray-600">Surat, Gujarat, India</p>
+                <p className="text-gray-600">India, Asia</p>
               </div>
             </div>
 
@@ -38,7 +38,7 @@ const Contact = () => {
               <SiGmail className="text-2xl text-red-400" />
               <div>
                 <h4 className="text-lg font-semibold">Email</h4>
-                <p className="text-gray-600">lathiyakrish@gmail.com</p>
+                <p className="text-gray-600">krish@gmail.com</p>
               </div>
             </div>
           </div>
