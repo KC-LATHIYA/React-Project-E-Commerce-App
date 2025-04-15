@@ -14,7 +14,7 @@ function Header() {
 
                     {/* Brand */}
                     <div className="text-2xl font-bold text-indigo-600">
-                        <img src="/src/assets/logo-3.png" 
+                        <img src="/image/logo-3.png" 
                         alt="logo" 
                         className='h-10' 
                         />
